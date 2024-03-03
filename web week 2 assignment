@@ -1,0 +1,58 @@
+Sure, here is the HTML code for the webpage you described:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            padding: 10px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Image Links!</h1>
+
+    <h2>Home</h2>
+    <p>Welcome to our website. Here is an image related to technology:</p>
+    <a href="https://www.example.com/technology"><img src="technology_image.jpg" alt="Technology Image"></a>
+
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <a href="https://www.example.com/nature"><img src="nature_image1.jpg" alt="Nature Image 1"></a>
+        <a href="https://www.example.com/nature"><img src="nature_image2.jpg" alt="Nature Image 2"></a>
+        <a href="https://www.example.com/nature"><img src="nature_image3.jpg" alt="Nature Image 3"></a>
+    </div>
+
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="https://www.example.com/food1"><img src="food_image1.jpg" alt="Food Item 1"></a> Food Item 1</li>
+        <li><a href="https://www.example.com/food2"><img src="food_image2.jpg" alt="Food Item 2"></a> Food Item 2</li>
+        <li><a href="https://www.example.com/food3"><img src="food_image3.jpg" alt="Food Item 3"></a> Food Item 3</li>
+    </ul>
+</body>
+</html>
+```
+
+Please make sure to replace the image file names (e.g., `technology_image.jpg`, `nature_image1.jpg`, etc.) with the actual image file names you have or plan to use. Also, update the placeholder URLs (`https://www.example.com/technology`, `https://www.example.com/nature`, `https://www.example.com/food1`, etc.) with the relevant external website URLs.
